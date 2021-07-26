@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+  <div style="display: flex">
+    <form action="">
+      <label class="nameLabel">
+        Name :
+        <input type="text" name="name" id="name" placeholder="Enter Your Name" /></label>
+
+      <label class="addLabel">Address :
+        <input type="text" name="address" id="address" placeholder="Enter Your Address">
+      </label>
+
+      <div class="gender">
+        Gender :
+        <label class="maleLabel">Male<input type="radio" value="male" name="gender" class="male" /> </label><label
+          class="femaleLabel">Female<input type="radio" value="female" name="gender" class="female" /></label>
+      </div>
+
+      <label class="ageLabel">
+        Age : <input type="number" name="age" id="age" /></label>
+
+      <div class="peopleeducation">
+        Education :
+        <select name="education" id="education">
+          <option value="primary">Primary Standard</option>
+          <option value="secondary">Secondary Standard </option>
+          <option value="matric">Metric</option>
+          <option value="inter">Intermediate</option>
+          <option value="graduate">Graduate</option>
+        </select>
+      </div>
+
+      <div class="profession">
+        Professions:
+        <select name="professions" id="professions">
+          <option value="primary">Teacher</option>
+          <option value="secondary">Programmer </option>
+          <option value="matric">Sales Man</option>
+          <option value="inter">BusinessMan</option>
+          <option value="graduate">Doctor</option>
+          <option value="graduate">Any Other</option>
+        </select>
+      </div>
+      <input type="button" value="Add Data" class="btn" />
+    </form>
+  </div>
+
+  <div class="database">
+    <p class="allFemales"></p>
+    <p class="allMales"></p>
+    <p class="noOfPeople"></p>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
+
+
+
+</body>
+</html>
